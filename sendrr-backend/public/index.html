@@ -1,0 +1,100 @@
+
+    <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body{
+        background-color: #0d1117;
+        color: #c9d1d9;
+        font-family: 'Righteous', cursive;
+    }
+  
+    header{
+        width: 80%;
+        margin: 10vh auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+    .border{
+        padding: 10px 16px;
+        border: 2px solid #c9d1d9;
+    }
+  
+    section{
+        text-align: center;
+    }
+  
+    section h1{
+        font-size: 5em;
+        margin-bottom: 10px;
+    }
+  
+    section p{
+        font-size: 1.5em;
+        margin: 0;
+        font-weight: 100;
+    }
+  
+    .lds-dual-ring {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+    }
+  
+    .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid #c9d1d9;
+        border-color: #c9d1d9 transparent #c9d1d9 transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+    }
+  @keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  </style>
+  <body>
+    <header>
+        <div class="border">
+            Get started by editing server.js
+        </div>
+  
+        <a href="https://github.com/DevEmmy" target="_blank">
+            <p class="border">
+                By DevEmmy
+            </p>
+        </a>
+        
+    </header>
+    <section>
+        <h1>Express App Setup</h1>
+        <p>Your App (sendrr-backend) is now running on port 3030</p>
+        <div class="lds-dual-ring"></div>
+    </section>
+  </body>
+  </html>
+    
